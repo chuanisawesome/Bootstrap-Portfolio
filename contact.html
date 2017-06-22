@@ -16,8 +16,8 @@ Revisions: Jon (6/21/17) - Created Bootstrap -->
   <!-- Bootstrap CDN-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -39,51 +39,90 @@ Revisions: Jon (6/21/17) - Created Bootstrap -->
     </nav>
   </header>
   
-  <!-- <div class="wrapper"> -->
+  <div class="wrapper">
     <div id="main-container" class="container">
       
       <!-- Row 1 -->
       <div class="row">
         <div class="col-md-8">
-          <!-- <section class="main-section">-->
-            <h1>Contact</h1>
+          <section class="main-section">
 
-            <form id="contact-form">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <!-- Row 1.1 -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Contact</h1>
+              </div>
+            </div>
+            
+            <!-- Row 1.2 -->
+            <div class="row">
+              <div class="col-md-12">
+                <form id="contact-form">
+                  <label for="name">Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+              </div>
+            </div>
+              
 
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            <!-- Row 1.3 -->
+            <div class="row">
+              <div class="col-md-12">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+              </div>
+            </div>
 
-              <label for="message">Message</label>
-              <textarea id="message" name="message" required="required"></textarea>
-              <input type="submit">
-            </form>
-          <!-- </section> -->
+            <!-- Row 1.4 -->
+            <div class="row">
+              <div class="col-md-12">
+                <label for="message">Message</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <textarea id="message" name="message" required="required"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="submit">
+              </div>
+            </div>
+              </form>
+          </section>
         </div>
 
         <div class="col-md-4">
-          <!-- <section class="sidebar"> 
-            <div id="connect"> -->
+          <section class="sidebar"> 
+            <div id="connect">
               <h2>Connect with Me</h2>
 
-              <a href="https://github.com/jongryn" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868641_github2.png?raw=true" alt="GitHub" class="img-thumbnail" /></a>
-              <a href="https://www.linkedin.com/in/jonathangryn/" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868047_9.png?raw=true" alt="LinkedIn" class="img-thumbnail"/></a>
-              <a href="https://stackoverflow.com/users/7916484/jon-gryn?tab=profile" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868131_overflow.png?raw=true" alt="Stack Overflow" class="img-thumbnail" /></a>
-            <!-- </div>
-          </section> -->
-
-          <!-- <div class="push"></div>
+              <a href="https://github.com/jongryn" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868641_github2.png?raw=true" id="social" alt="GitHub" class="img-thumbnail" /></a>
+              <a href="https://www.linkedin.com/in/jonathangryn/" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868047_9.png?raw=true" id="social" alt="LinkedIn" class="img-thumbnail"/></a>
+              <a href="https://stackoverflow.com/users/7916484/jon-gryn?tab=profile" target="_blank"><img src="https://github.com/jongryn/Responsive-Portfolio/blob/master/assets/images/1497868131_overflow.png?raw=true" id="social" alt="Stack Overflow" class="img-thumbnail" /></a>
+            </div>
+          </section> 
         </div>
-      </div> -->
+
+        <div class="push"></div>
+      </div>
+    </div>
 
   <!-- Row 2 -->
   <div class="row">
     <div class="col-md-12">
       <footer>
-        <!-- <div class="container"> -->
+        <div class="container">
           Copyright &copy; 2017 Jon Gryn
-        <!-- </div> -->
+        </div>
       </footer>
     </div>
   </div>
