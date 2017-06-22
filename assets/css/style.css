@@ -72,7 +72,8 @@ h3 {
   float: left;
   width: 250px;
   height: 0%;
-  margin-left: -200%;
+  margin-top: 2.5%;
+  margin-left: -2%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   font-size: 30px;
@@ -89,17 +90,26 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  background-color: white;
 }
 nav a {
   display: inline-block;
   padding-left: 15px;
-  margin-left: 15px;
+  margin-left: -1.75%;
+  margin-top: 8%;
   line-height: 18px;
   color: #999;
+  border: none;
+  background-color: white;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
+.navbar {
+  border: none;
+  background-color: white;
+}
 nav a:first-child {
+  margin-right: -1.75;
   border-left: 0 none;
 }
 a:hover, input[type=submit]:hover {
