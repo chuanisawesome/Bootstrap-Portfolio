@@ -1,5 +1,7 @@
 # Basic-Portfolio
 
+Link: https://jongryn.github.io/Bootstrap-Portfolio/
+
 Assignment Two Instructions (Bootstrap)
 
 Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
